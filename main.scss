@@ -26,24 +26,33 @@ h3{
 }
 
 nav ul li{
-    float: left;
-    width: (100%/3);
     list-style-type: none;
+    box-sizing: border-box;
+    a{
+        display: block;
+        width: 100%;
+    }
 }
 
 .menu{
-    border: 1px solid black;
+    border-top: #CCC solid 1px;
+    border-bottom: #CCC solid 1px;
     padding: none;
     a{
         text-decoration: none;
     }
 
     .pure-u-1-3{
-        width: 300px;
         :hover{
             background: lightgoldenrodyellow;
         }
     }
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 footer{
