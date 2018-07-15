@@ -1,0 +1,22 @@
+{
+  "name": "n_high-kosenconf-lp",
+  "version": "1.0.0",
+  "description": "N high school-kosenconf's landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eniehack/N_high-kosenconf-LP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eniehack/N_high-kosenconf-LP/issues"
+  },
+  "homepage": "https://github.com/eniehack/N_high-kosenconf-LP#readme",
+  "dependencies": {
+    "harp": "^0.27.0"
+  }
+}
